@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@textile/powergate-client": "^4.1.0"
+  }
+}
