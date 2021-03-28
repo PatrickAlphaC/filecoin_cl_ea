@@ -1,0 +1,209 @@
+node filecoin.js 
+JOOOOOBBBIIIIDDDDDD
+0799d06f-8e2c-4a2b-81a2-58d58c0d65e3
+(node:63095) UnhandledPromiseRejectionWarning: Error: unknown address network
+    at Object.onEnd (/Users/patrick/code/filecoin_cl_ea/node_modules/@textile/grpc-powergate-client/dist/powergate/user/v1/user_pb_service.js:816:21)
+    at /Users/patrick/code/filecoin_cl_ea/node_modules/@textile/grpc-powergate-client/node_modules/@improbable-eng/grpc-web/dist/grpc-web-client.js:1:24140
+    at /Users/patrick/code/filecoin_cl_ea/node_modules/@textile/grpc-powergate-client/node_modules/@improbable-eng/grpc-web/dist/grpc-web-client.js:1:10982
+    at Array.forEach (<anonymous>)
+    at e.rawOnEnd (/Users/patrick/code/filecoin_cl_ea/node_modules/@textile/grpc-powergate-client/node_modules/@improbable-eng/grpc-web/dist/grpc-web-client.js:1:10944)
+    at e.onTransportEnd (/Users/patrick/code/filecoin_cl_ea/node_modules/@textile/grpc-powergate-client/node_modules/@improbable-eng/grpc-web/dist/grpc-web-client.js:1:10651)
+    at WebSocket.ws.onclose (/Users/patrick/code/filecoin_cl_ea/node_modules/@textile/grpc-transport/dist/cjs/index.js:93:25)
+    at WebSocket.onClose (/Users/patrick/code/filecoin_cl_ea/node_modules/ws/lib/event-target.js:136:16)
+    at WebSocket.emit (events.js:315:20)
+    at WebSocket.emitClose (/Users/patrick/code/filecoin_cl_ea/node_modules/ws/lib/websocket.js:198:10)
+(node:63095) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:63095) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+{
+  id: '0799d06f-8e2c-4a2b-81a2-58d58c0d65e3',
+  apiId: '1abdf611-d8f3-49a7-b609-1ec8ca6ff14c',
+  cid: 'Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L',
+  status: 2,
+  errorCause: '',
+  dealInfoList: [],
+  dealErrorsList: [],
+  createdAt: 1616777010
+}
+received event for cid Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L
+received event for cid Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L
+received event for cid Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L
+received event for cid Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L
+{
+  id: '0799d06f-8e2c-4a2b-81a2-58d58c0d65e3',
+  apiId: '1abdf611-d8f3-49a7-b609-1ec8ca6ff14c',
+  cid: 'Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L',
+  status: 2,
+  errorCause: '',
+  dealInfoList: [
+    {
+      proposalCid: 'bafyreiev6yfzotkbm6stzhx5ekf42oc457653bu7ur6yibx5zz2m3n7u6u',
+      stateId: 21,
+      stateName: 'StorageDealReserveClientFunds',
+      miner: 'f01000',
+      pieceCid: 'baga6ea4seaqm6m365kixrzkucz6xwn4uuhhkb5hxorfsjk7qmklvkh3mg35a6ga',
+      size: 260096,
+      pricePerEpoch: 122070,
+      startEpoch: 0,
+      duration: 519278,
+      dealId: 0,
+      activationEpoch: 0,
+      message: ''
+    }
+  ],
+  dealErrorsList: [],
+  createdAt: 1616777010
+}
+received event for cid Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L
+{
+  id: '0799d06f-8e2c-4a2b-81a2-58d58c0d65e3',
+  apiId: '1abdf611-d8f3-49a7-b609-1ec8ca6ff14c',
+  cid: 'Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L',
+  status: 2,
+  errorCause: '',
+  dealInfoList: [
+    {
+      proposalCid: 'bafyreiev6yfzotkbm6stzhx5ekf42oc457653bu7ur6yibx5zz2m3n7u6u',
+      stateId: 23,
+      stateName: 'StorageDealClientFunding',
+      miner: 'f01000',
+      pieceCid: 'baga6ea4seaqm6m365kixrzkucz6xwn4uuhhkb5hxorfsjk7qmklvkh3mg35a6ga',
+      size: 260096,
+      pricePerEpoch: 122070,
+      startEpoch: 0,
+      duration: 519278,
+      dealId: 0,
+      activationEpoch: 0,
+      message: ''
+    }
+  ],
+  dealErrorsList: [],
+  createdAt: 1616777010
+}
+received event for cid Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L
+{
+  id: '0799d06f-8e2c-4a2b-81a2-58d58c0d65e3',
+  apiId: '1abdf611-d8f3-49a7-b609-1ec8ca6ff14c',
+  cid: 'Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L',
+  status: 2,
+  errorCause: '',
+  dealInfoList: [
+    {
+      proposalCid: 'bafyreiev6yfzotkbm6stzhx5ekf42oc457653bu7ur6yibx5zz2m3n7u6u',
+      stateId: 12,
+      stateName: 'StorageDealFundsReserved',
+      miner: 'f01000',
+      pieceCid: 'baga6ea4seaqm6m365kixrzkucz6xwn4uuhhkb5hxorfsjk7qmklvkh3mg35a6ga',
+      size: 260096,
+      pricePerEpoch: 122070,
+      startEpoch: 0,
+      duration: 519278,
+      dealId: 0,
+      activationEpoch: 0,
+      message: ''
+    }
+  ],
+  dealErrorsList: [],
+  createdAt: 1616777010
+}
+received event for cid Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L
+{
+  id: '0799d06f-8e2c-4a2b-81a2-58d58c0d65e3',
+  apiId: '1abdf611-d8f3-49a7-b609-1ec8ca6ff14c',
+  cid: 'Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L',
+  status: 2,
+  errorCause: '',
+  dealInfoList: [
+    {
+      proposalCid: 'bafyreiev6yfzotkbm6stzhx5ekf42oc457653bu7ur6yibx5zz2m3n7u6u',
+      stateId: 13,
+      stateName: 'StorageDealCheckForAcceptance',
+      miner: 'f01000',
+      pieceCid: 'baga6ea4seaqm6m365kixrzkucz6xwn4uuhhkb5hxorfsjk7qmklvkh3mg35a6ga',
+      size: 260096,
+      pricePerEpoch: 122070,
+      startEpoch: 0,
+      duration: 519278,
+      dealId: 0,
+      activationEpoch: 0,
+      message: ''
+    }
+  ],
+  dealErrorsList: [],
+  createdAt: 1616777010
+}
+{
+  id: '0799d06f-8e2c-4a2b-81a2-58d58c0d65e3',
+  apiId: '1abdf611-d8f3-49a7-b609-1ec8ca6ff14c',
+  cid: 'Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L',
+  status: 2,
+  errorCause: '',
+  dealInfoList: [
+    {
+      proposalCid: 'bafyreiev6yfzotkbm6stzhx5ekf42oc457653bu7ur6yibx5zz2m3n7u6u',
+      stateId: 29,
+      stateName: 'StorageDealAwaitingPreCommit',
+      miner: 'f01000',
+      pieceCid: 'baga6ea4seaqm6m365kixrzkucz6xwn4uuhhkb5hxorfsjk7qmklvkh3mg35a6ga',
+      size: 260096,
+      pricePerEpoch: 122070,
+      startEpoch: 0,
+      duration: 519278,
+      dealId: 2,
+      activationEpoch: 0,
+      message: ''
+    }
+  ],
+  dealErrorsList: [],
+  createdAt: 1616777010
+}
+received event for cid Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L
+received event for cid Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L
+{
+  id: '0799d06f-8e2c-4a2b-81a2-58d58c0d65e3',
+  apiId: '1abdf611-d8f3-49a7-b609-1ec8ca6ff14c',
+  cid: 'Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L',
+  status: 2,
+  errorCause: '',
+  dealInfoList: [
+    {
+      proposalCid: 'bafyreiev6yfzotkbm6stzhx5ekf42oc457653bu7ur6yibx5zz2m3n7u6u',
+      stateId: 5,
+      stateName: 'StorageDealSealing',
+      miner: 'f01000',
+      pieceCid: 'baga6ea4seaqm6m365kixrzkucz6xwn4uuhhkb5hxorfsjk7qmklvkh3mg35a6ga',
+      size: 260096,
+      pricePerEpoch: 122070,
+      startEpoch: 0,
+      duration: 519278,
+      dealId: 2,
+      activationEpoch: 0,
+      message: ''
+    }
+  ],
+  dealErrorsList: [],
+  createdAt: 1616777010
+}
+^C
+patrick@iMac: [~/code/filecoin_cl_ea -  (main)] $ pow data log Qme4BtB94mrLQ5zxwL7aXhkHFMGwBonSTKHgAeP7ETnk9L -t 8a8bad22-b5fe-42ab-913f-6a1b78fd60eb 
+> 2021-03-26T12:43:30 - Pushing new configuration...
+> 2021-03-26T12:43:30 - Configuration saved successfully
+> 2021-03-26T12:43:30 - Executing job 0799d06f-8e2c-4a2b-81a2-58d58c0d65e3...
+> 2021-03-26T12:43:30 - Executing Hot-Storage configuration...
+> 2021-03-26T12:43:30 - Fetching from the IPFS network...
+> 2021-03-26T12:43:30 - Hot-Storage configuration ran successfully.
+> 2021-03-26T12:43:30 - Executing Cold-Storage configuration...
+> 2021-03-26T12:43:30 - Current replication factor is lower than desired, making 1 new deals...
+> 2021-03-26T12:43:30 - Entering deal preprocessing queue...
+> 2021-03-26T12:43:30 - Calculating piece size...
+> 2021-03-26T12:43:30 - The payload size is 138 KiB, and the calculated piece size is 256 KiB
+> 2021-03-26T12:43:30 - Proposing deal to miner f01000 with 0.0000000005 FIL per epoch...
+> 2021-03-26T12:43:30 - Watching deals unfold...
+> 2021-03-26T12:43:30 - Deal with miner f01000 changed state to StorageDealReserveClientFunds
+> 2021-03-26T12:43:31 - Deal with miner f01000 changed state to StorageDealClientFunding
+> 2021-03-26T12:43:32 - Deal with miner f01000 changed state to StorageDealFundsReserved
+> 2021-03-26T12:43:33 - Deal with miner f01000 changed state to StorageDealCheckForAcceptance
+> 2021-03-26T12:43:37 - Deal 2 with miner f01000 changed state to StorageDealAwaitingPreCommit
+> 2021-03-26T12:43:52 - Deal 2 with miner f01000 changed state to StorageDealSealing
+> 2021-03-26T12:44:38 - Deal 2 with miner f01000 is active on-chain
+> 2021-03-26T12:44:38 - Cold-Storage configuration ran successfully.
+> 2021-03-26T12:44:38 - Job 0799d06f-8e2c-4a2b-81a2-58d58c0d65e3 execution finished with status Success.
